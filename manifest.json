@@ -1,0 +1,13 @@
+ "data": {
+        "start_window": "MainWindow",
+        "windows": {
+            "MainWindow": {
+                "file": "Files/index.html",
+                "transparent": true,
+                "resizable": true,
+                "size": {"width": 400, "height": 300},
+                "min_size": {"width": 200, "height": 200},
+                "max_size": {"width": 600, "height": 500}
+            }
+        }
+ }
