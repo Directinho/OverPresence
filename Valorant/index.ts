@@ -1,5 +1,5 @@
 const Presence = new Presence ({
- clientid="",
+ clientid="856869173106704424",
  gameid="21640"
 }),
   	pages: Record<string, PresenceData> = {
