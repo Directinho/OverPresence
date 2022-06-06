@@ -3,7 +3,7 @@ const Presence = new Presence ({
  gameid="21640"
 }),
   	pages: Record<string, PresenceData> = {
-      Valorant:"valorat",
+      Valorant:"valorant",
       Afk:"afk",
       MainMenu:"mainmenu",
       Triad:"heaven",
@@ -82,4 +82,10 @@ presence.on("UpdateData", async () => {
 },
   else {
     switch (event);
+      case (event = "MainMenu") {
+        presence.largeimagekey = "valorant";
+        presence.details = "Playing Valorant";
+        presence.states = "In Main Menu";
+         
+    }
   }
